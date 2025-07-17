@@ -1,0 +1,8 @@
+
+@import "tailwindcss";
+/* 新增：定义可复用的组件层类 */
+/* @layer components {
+  .form-input {
+    @apply mt-1 text-sm block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500;
+  }
+} */

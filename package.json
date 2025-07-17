@@ -1,0 +1,32 @@
+{
+  "name": "lark-timesheet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.10",
+    "@vueuse/core": "^13.5.0",
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "lucide-vue-next": "^0.525.0",
+    "pinia": "^3.0.3",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^2.2.10"
+  }
+}
