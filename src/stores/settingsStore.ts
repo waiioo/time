@@ -23,7 +23,7 @@ export const useSettingsStore = defineStore('settings', {
     feishuConfig: getFromLocalStorage<FeishuApiConfig>(FEISHU_CONFIG_KEY, {
       appId: "cli_a8f21369f506100e",
       appSecret: "rJhzQc3zIhAv5Aia71NpMgXsafeke8if",
-      appToken: "Gx7OwaqjiiZZJek2NH0cqC9OnBf",
+      appToken: "YbwgbhT2HaaRawsQQtncAU3TnGp",
       tableId: "tblstjIHyR8JHO36",
     }),
     syncSettings: getFromLocalStorage<SyncSettings>(SYNC_SETTINGS_KEY, {
