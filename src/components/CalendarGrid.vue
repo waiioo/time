@@ -8,7 +8,7 @@
       }"
     >
       <!-- 创建按钮 -->
-      <div class="p-2 border-b border-r border-gray-200">
+      <div class="p-2 border-b border-r">
         <button
           @click="emit('create-log')"
           class="w-full h-full flex items-center justify-center text-yellow-600 hover:text-yellow-700 transition-colors"
@@ -21,7 +21,7 @@
       <div
         v-for="day in weekDays"
         :key="day.toISOString()"
-        class="p-2 text-center border-b border-r border-gray-200 transition-colors"
+        class="p-2 text-center border-b border-r transition-colors"
         :class="{ 'bg-blue-100 text-blue-800 font-bold': isToday(day) }"
       >
         <!-- 日期 -->
